@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador De Texto</title>
+</head>
+<body>
+    <header>
+        <img src="/img/logo.png" alt="Logo De Alura">
+    </header>
+    <main>
+        <section class="seccion1">
+            <textarea class="textarea" placeholder="Ingresa el texto aquí"></textarea>
+            <div class="info">
+                <img src="/img/info.png" alt="Imagen info">
+                <span>Solo letras minúsculas y sin acento</span>
+            </div>
+            
+            <div class="botones">
+                <button class="encriptar">Encriptar</button>
+                <button class="desencriptar">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="seccion2">
+            <img class="munieco" src="/img/munheco.png" alt="imagen muñeco de alura">
+
+            <div class="no-encontrado">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+            </div>
+
+            <div class="encontrado">
+                <textarea class="encriptado"></textarea>
+                <button class="copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
